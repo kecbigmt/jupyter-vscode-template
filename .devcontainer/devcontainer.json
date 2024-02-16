@@ -1,0 +1,27 @@
+{
+	"name": "Jupyter Notebook",
+
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "notebook",
+	"workspaceFolder": "/app",
+	
+	"forwardPorts": [8888],
+
+	"remoteUser": "root",
+
+	"customizations": {
+		"vscode": {
+			"settings": { 
+				"python.defaultInterpreterPath": "/usr/local/bin/python"
+			},
+			
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
+			]
+		}
+	}
+}

@@ -1,0 +1,12 @@
+version: '3'
+services:
+  notebook:
+    build: .
+    ports:
+      - 8888:8888
+    volumes:
+      - type: bind
+        source: ./jupyter
+        target: /app
+    working_dir: /app
+    tty: true
