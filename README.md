@@ -1,6 +1,6 @@
 # analysis-notebook-template
 
-VSCode Dev Containersで動作する、Jupyter Notbookによる分析環境のテンプレートリポジトリ。
+VSCode Dev Containers内で動作するJupyter Notebookによる分析環境のテンプレートリポジトリ。
 
 商用含めて自由にお使いいただけます。README末尾のクレジットは残しておいていただけるとありがたいです。
 
