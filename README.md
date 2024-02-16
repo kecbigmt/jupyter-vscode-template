@@ -1,4 +1,4 @@
-# analysis-notebook-template
+# jupyter-vscode-template
 
 VSCode Dev Containers内で動作するJupyter Notebookによる分析環境のテンプレートリポジトリ。
 
@@ -60,4 +60,4 @@ from src.data_loader import DataLoader
 
 ## クレジット
 
-このリポジトリは [kecbigmt/analysis-notebook-template](https://github.com/kecbigmt/analysis-notebook-template) をもとに作成されました。
+このリポジトリは [kecbigmt/jupyter-vscode-template](https://github.com/kecbigmt/jupyter-vscode-template) をもとに作成されました。
